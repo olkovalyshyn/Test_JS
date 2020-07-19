@@ -68,8 +68,16 @@
 //
 //
 //
-let anonym = function () {
-  console.log("анoнімна функція");
-};
+// let anonym = function () {
+//   console.log("анoнімна функція");
+// };
 
-anonym();
+// anonym();
+//
+//
+//
+const isComing = confirm("Please confirm hotel reservation");
+console.log(isComing);
+
+const hotelName = prompt("Please enter desired hotel name:");
+console.log(hotelName);
